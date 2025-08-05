@@ -1,0 +1,74 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+.env
+
+# typescript
+*.tsbuildinfo
+
+app-example
+
+# Development artifacts and external repositories
+prompt_context/
+mobile-wallet-adapter/
+solana-scaffold/
+temp-scaffold/
+
+# Development documentation and backup files
+CONSOLIDATED_APP_README.md
+BLOCKCHAIN_INTEGRATION_STATUS.md
+PROJECT_STATE_BACKUP.md
+TECHNICAL_IMPLEMENTATION.md
+MOBILE_WALLET_ADAPTER_SETUP.md
+
+# Development scripts and utilities
+mint.js
+env-template.txt
+git
+
+# IDE and editor files
+.idea/
+.vscode/
+
+# Branding assets (if not needed in repo)
+Musika Labs Branding Pack/
+WORDMARK-18.svg
+
+# Temporary and probe files
+app/z_probe.txt
+app/(tabs)/demo/index.tsx.backup
+
+# Unused components
+components/launchpad/
+components/solana/mwa-test.tsx
